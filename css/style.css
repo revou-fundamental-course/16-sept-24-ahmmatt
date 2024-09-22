@@ -2,11 +2,14 @@
 .main-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
 }
 
 nav {
     display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+
 }
 
 nav>a {
@@ -19,10 +22,12 @@ nav>a {
 .logo-icon {
     height:50px;
     width: 50px;
-    background-image: url();
+    background-image: url(../assets/White\ Logo.png);
     background-size: cover;
-    background-position:center;
+    background-position: center;
     border-radius: 50%;
+    margin-left: 20px; 
+    margin-top: 20px 80px;
 }
 
 .photo-banner {

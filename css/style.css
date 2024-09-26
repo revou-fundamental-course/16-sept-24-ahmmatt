@@ -147,6 +147,8 @@
 div h5{
     padding-top: 15px;
     color: black;
+    text-align: center;
+    margin-right: 2rem;
 }
 
 .logo-icon {

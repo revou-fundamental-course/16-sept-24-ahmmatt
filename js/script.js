@@ -62,8 +62,8 @@ function setSenderUI(name, birthDate, gender, messages) {
     document.getElementById("sender-full-name").innerHTML = name;
     document.getElementById("sender-birth-date").innerHTML = birthDate;
     document.getElementById("sender-gender").innerHTML = gender;
-    document.getElementById("sender-messages").innerHTML = messages;*/
-}
+    document.getElementById("sender-messages").innerHTML = messages;
+}*/
 /*function validateForm() {
     const name = document.forms["messages-form"]["full-name"].value;
     const birthDate = document.forms["messages-form"]["birth-date"].value;
@@ -77,8 +77,8 @@ function setSenderUI(name, birthDate, gender, messages) {
 
     setSenderUI(name, birthDate, gender, messages);
 
-    return false;*/
-}
+    return false;
+}*/
 
 
 
@@ -103,11 +103,10 @@ document.querySelector('#hamburger-menu') .onclick = () => {
     navbarNav.classList.toggle('active');
 };
 //menghilangkan nav
-const hamburger = document.querySelector {'#hamburger'};
-    
-document.addEventListener{'click', function (e) {
-    if (!hamburger.contains(e.target)) && !navbarNav.contains(e.target)) {
-        navbarNav .classList. remote('active');
+const hamburger = document.querySelector('#hamburger');
+document.addEventListener('click', function (e) {
+    if (!hamburger.contains(e.target) && !navbarNav.contains(e.target)) {
+        navbarNav.classList.remove('active');
     }
 });
 
